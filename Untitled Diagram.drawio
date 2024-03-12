@@ -1,75 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T07:39:56.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Jm9LwBZ4GNAJ-aax3n8p" version="24.0.4" type="github">
-  <diagram name="Page-1" id="K7NV4D_8GM1_fPgMcDhH">
-    <mxGraphModel dx="1824" dy="1972" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-03-12T09:29:30.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.4" etag="Zs5Afur7iFLSX0zu-1ex" type="github">
+  <diagram name="Page-1" id="TjMmhmXX_nkEW2uMKh0l">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Wp7nARzc3UCDha3wbuE0-2" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="64" y="-155" width="94" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Wp7nARzc3UCDha3wbuE0-5" value="Read month start reading" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="-26.5" y="-59" width="275" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Wp7nARzc3UCDha3wbuE0-9" value="End" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="64" y="647" width="94" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Wp7nARzc3UCDha3wbuE0-10" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Wp7nARzc3UCDha3wbuE0-2" target="Wp7nARzc3UCDha3wbuE0-5" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="175" y="225" as="sourcePoint" />
-            <mxPoint x="225" y="175" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Wp7nARzc3UCDha3wbuE0-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Wp7nARzc3UCDha3wbuE0-5" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="121" y="-105" as="sourcePoint" />
-            <mxPoint x="111" y="63" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Wp7nARzc3UCDha3wbuE0-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="112" y="126" as="sourcePoint" />
-            <mxPoint x="110" y="176" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Wp7nARzc3UCDha3wbuE0-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="240" as="sourcePoint" />
-            <mxPoint x="112" y="296" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Wp7nARzc3UCDha3wbuE0-16" value="Calculate Unit Consumed" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-6" y="178" width="234" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Wp7nARzc3UCDha3wbuE0-17" value="Add VAT, NBT, Service Charge, Fixed Charge (12%)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="-26.5" y="413" width="275" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Wp7nARzc3UCDha3wbuE0-18" value="Calculate Water Charge" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-6" y="295" width="234" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Wp7nARzc3UCDha3wbuE0-21" value="Print Bill" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="-26.5" y="528" width="275" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Wp7nARzc3UCDha3wbuE0-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="355" as="sourcePoint" />
-            <mxPoint x="112" y="411" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Wp7nARzc3UCDha3wbuE0-24" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="471" as="sourcePoint" />
-            <mxPoint x="112" y="527" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Wp7nARzc3UCDha3wbuE0-25" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="588" as="sourcePoint" />
-            <mxPoint x="112" y="644" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Wp7nARzc3UCDha3wbuE0-26" value="Read month end reading" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="-26.5" y="64" width="275" height="60" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
